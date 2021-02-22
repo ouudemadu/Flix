@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		22E20DD425E34251003A88CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20DD325E34251003A88CF /* AppDelegate.swift */; };
 		22E20DD625E34251003A88CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20DD525E34251003A88CF /* SceneDelegate.swift */; };
-		22E20DD825E34251003A88CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20DD725E34251003A88CF /* ViewController.swift */; };
+		22E20DD825E34251003A88CF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20DD725E34251003A88CF /* MoviesViewController.swift */; };
 		22E20DDB25E34251003A88CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E20DD925E34251003A88CF /* Main.storyboard */; };
 		22E20DDD25E34259003A88CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E20DDC25E34259003A88CF /* Assets.xcassets */; };
 		22E20DE025E34259003A88CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E20DDE25E34259003A88CF /* LaunchScreen.storyboard */; };
 		22E20DEB25E3425A003A88CF /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20DEA25E3425A003A88CF /* FlixTests.swift */; };
 		22E20DF625E3425A003A88CF /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20DF525E3425A003A88CF /* FlixUITests.swift */; };
+		22E20E2725E3531C003A88CF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E20E2625E3531C003A88CF /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		22E20DD025E34251003A88CF /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E20DD325E34251003A88CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22E20DD525E34251003A88CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22E20DD725E34251003A88CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22E20DD725E34251003A88CF /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		22E20DDA25E34251003A88CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22E20DDC25E34259003A88CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22E20DDF25E34259003A88CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,8 @@
 		22E20DF125E3425A003A88CF /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E20DF525E3425A003A88CF /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		22E20DF725E3425A003A88CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E20E0625E3461B003A88CF /* Flix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flix.entitlements; sourceTree = "<group>"; };
+		22E20E2625E3531C003A88CF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +102,12 @@
 		22E20DD225E34251003A88CF /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				22E20E0625E3461B003A88CF /* Flix.entitlements */,
 				22E20DD325E34251003A88CF /* AppDelegate.swift */,
 				22E20DD525E34251003A88CF /* SceneDelegate.swift */,
-				22E20DD725E34251003A88CF /* ViewController.swift */,
 				22E20DD925E34251003A88CF /* Main.storyboard */,
+				22E20E2625E3531C003A88CF /* MovieCell.swift */,
+				22E20DD725E34251003A88CF /* MoviesViewController.swift */,
 				22E20DDC25E34259003A88CF /* Assets.xcassets */,
 				22E20DDE25E34259003A88CF /* LaunchScreen.storyboard */,
 				22E20DE125E34259003A88CF /* Info.plist */,
@@ -258,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E20DD825E34251003A88CF /* ViewController.swift in Sources */,
+				22E20DD825E34251003A88CF /* MoviesViewController.swift in Sources */,
 				22E20DD425E34251003A88CF /* AppDelegate.swift in Sources */,
+				22E20E2725E3531C003A88CF /* MovieCell.swift in Sources */,
 				22E20DD625E34251003A88CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +442,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Flix/Flix.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ23LC772X;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = codepathapp.Flix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +464,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Flix/Flix.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ23LC772X;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = codepathapp.Flix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
