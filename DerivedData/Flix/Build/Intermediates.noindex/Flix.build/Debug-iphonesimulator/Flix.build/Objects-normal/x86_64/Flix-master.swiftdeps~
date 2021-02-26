@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "f37aff5f1cd4326900b53ee0f2b14ed1"
+build_time: [1614078938, 540675000]
+inputs:
+  "/Users/oudemadu/Desktop/Flix/Flix/MoviesViewController.swift": [1613969264, 676062516]
+  "/Users/oudemadu/Desktop/Flix/Flix/AppDelegate.swift": [1613957841, 659712352]
+  "/Users/oudemadu/Desktop/Flix/Flix/MovieCell.swift": [1613962388, 122124773]
+  "/Users/oudemadu/Desktop/Flix/Flix/SceneDelegate.swift": [1613957841, 672308199]

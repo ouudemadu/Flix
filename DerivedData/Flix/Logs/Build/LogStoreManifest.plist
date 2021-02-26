@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>B8F24B56-82BE-4930-8F2D-C4568E71D3C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B8F24B56-82BE-4930-8F2D-C4568E71D3C8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flix project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flix</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flix</string>
+			<key>timeStartedRecording</key>
+			<real>635771736.15953195</real>
+			<key>timeStoppedRecording</key>
+			<real>635771741.60721898</real>
+			<key>title</key>
+			<string>Build Flix</string>
+			<key>uniqueIdentifier</key>
+			<string>B8F24B56-82BE-4930-8F2D-C4568E71D3C8</string>
+		</dict>
+		<key>BDC3F88A-F171-42F5-91B1-C0C005910916</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BDC3F88A-F171-42F5-91B1-C0C005910916.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flix project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flix</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flix</string>
+			<key>timeStartedRecording</key>
+			<real>635661925.17877495</real>
+			<key>timeStoppedRecording</key>
+			<real>635661925.36774802</real>
+			<key>title</key>
+			<string>Build Flix</string>
+			<key>uniqueIdentifier</key>
+			<string>BDC3F88A-F171-42F5-91B1-C0C005910916</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
